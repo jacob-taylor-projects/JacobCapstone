@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="427.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jacobcapstone.LinechartController">
+   <children>
+      <LineChart fx:id="linechart">
+        <xAxis>
+          <CategoryAxis label="years of experience" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="salary" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Button fx:id="linebackbutton" layoutX="420.0" layoutY="400.0" mnemonicParsing="false" onAction="#linetomain" text="back" />
+   </children>
+</AnchorPane>

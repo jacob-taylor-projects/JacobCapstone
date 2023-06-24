@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="460.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jacobcapstone.BarchartController">
+   <children>
+      <Button fx:id="backbutton" layoutX="570.0" layoutY="411.0" mnemonicParsing="false" onAction="#bartomain" text="back" />
+      <BarChart fx:id="barchart" layoutX="88.0" layoutY="33.0" prefHeight="378.0" prefWidth="488.0">
+        <xAxis>
+          <CategoryAxis label="average years of experience" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="salary" side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jacobcapstone.SalaryPredicterController">
+   <children>
+      <TextField fx:id="yearsofExperience" layoutX="226.0" layoutY="188.0" />
+      <Label layoutX="90.0" layoutY="39.0" text="Salary Predicter" />
+      <Label layoutX="170.0" layoutY="153.0" text="Please enter years of experience as a double (0.0)" />
+      <Button fx:id="submitbutton" layoutX="274.0" layoutY="249.0" mnemonicParsing="false" onAction="#estimateSalary" text="Submit" />
+      <TextField fx:id="estsalary" layoutX="226.0" layoutY="320.0" />
+      <Label layoutX="274.0" layoutY="295.0" text="Estimated Salary" />
+      <Button fx:id="backButton" layoutX="467.0" layoutY="333.0" mnemonicParsing="false" onAction="#salarytoMain" text="back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="428.0" prefWidth="628.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jacobcapstone.MainmenuController">
+   <children>
+      <Label layoutX="95.0" layoutY="30.0" text="Main Menu" />
+      <Button fx:id="barchartbutton" layoutX="274.0" layoutY="134.0" mnemonicParsing="false" onAction="#gotobarchart" text="Barchart" />
+      <Button fx:id="linechartbutton" layoutX="274.0" layoutY="189.0" mnemonicParsing="false" onAction="#gotolinechart" text="Linechart" />
+      <Button fx:id="piechartbutton" layoutX="274.0" layoutY="239.0" mnemonicParsing="false" onAction="#gotopiechart" text="Scatterchart" />
+      <Button fx:id="predicterbutton" layoutX="274.0" layoutY="290.0" mnemonicParsing="false" onAction="#gotopredictor" text="Predicter" />
+      <Button fx:id="exitbutton" layoutX="500.0" layoutY="370.0" mnemonicParsing="false" onAction="#exitscene" text="Exit" />
+   </children>
+</AnchorPane>

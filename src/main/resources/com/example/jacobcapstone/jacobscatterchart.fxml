@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="473.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jacobcapstone.ScatterchartController">
+   <children>
+      <Button fx:id="backbutton" layoutX="563.0" layoutY="426.0" mnemonicParsing="false" onAction="#scattertomain" text="back" />
+      <ScatterChart fx:id="scatterchart" layoutX="69.0" layoutY="26.0">
+        <xAxis>
+          <CategoryAxis label="years of experience" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="salary" side="LEFT" />
+        </yAxis>
+      </ScatterChart>
+   </children>
+</AnchorPane>
